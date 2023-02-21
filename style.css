@@ -1,0 +1,106 @@
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    background-color: rgb(8, 182, 185);
+}
+h1{
+    margin-top: 0%;
+    padding-top: 20px; 
+}
+.introduction{
+   text-align: center;
+   text-decoration: none;
+}
+.introduction a{
+    text-decoration: none;
+}
+
+
+.introduction a:hover{
+    color: rgb(247, 13, 13);
+    
+}
+
+.programming-language{
+    text-align: center;
+}
+.programming-language ul{
+    text-align: center;
+    list-style: none;
+}
+
+table,th,td{
+    width: fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border: 2px solid rgb(15, 14, 14);
+    background-color: yellow;
+    border-collapse: collapse;
+}
+.form{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+.form input[type=text],[type=tel]{
+    width: 500px;
+    height: 40px;
+    background-color: rgb(49, 54, 113);
+    border-radius: 5px;
+    font-size: 20px;
+    color: azure;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+input[type=submit]{
+  background-color: black;
+  color: azure;
+  margin-left: 40%;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  
+}
+textarea{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(49, 54, 113);
+    border-radius: 5px;
+    font-size: 20px;
+    color: azure;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+.box{
+    width: fit-content;
+    background-color: black;
+    color: blue;
+    padding: 5px;
+    border-radius: 4px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+button{
+    width: fit-content;
+    font-size: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+
+}
